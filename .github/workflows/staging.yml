@@ -1,4 +1,5 @@
 name: Promote to Staging
+run-name: Deploy to STAGING
 
 on:
   push:
@@ -6,7 +7,7 @@ on:
       - 'overlays/test/kustomization.yaml'
 
 jobs:
-  promote:
+  a:
     uses: kafd-demo/workflows/.github/workflows/deploy.yml@main
     with:
       sourceEnvironment: test
