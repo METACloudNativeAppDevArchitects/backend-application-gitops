@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: backend
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/instance: backend
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/part-of: Demo
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: backend
+        deployment: backend
+    spec:
+      containers:
+      - image: quay.io/fmwalker/kafd-backend:d95b419
+        imagePullPolicy: Always
+        name: backend
+        resources: {}
+      restartPolicy: Always
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
