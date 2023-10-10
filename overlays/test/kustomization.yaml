@@ -6,7 +6,5 @@ patchesStrategicMerge:
 - route-backend.yaml
 namePrefix: test-
 images:
-- name: app
-  newTag: abb671b
 - name: quay.io/fmwalker/kafd-backend
-  newTag: latest
+  newTag: abb671b
