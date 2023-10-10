@@ -7,7 +7,7 @@ on:
 
 jobs:
   promote:
-    uses: kafd-demo/workflows/.github/workflows/deploy.yml@v0.1
+    uses: kafd-demo/workflows/.github/workflows/deploy.yml@v0.2
     with:
       sourceEnvironment: test
       targetEnvironment: staging
