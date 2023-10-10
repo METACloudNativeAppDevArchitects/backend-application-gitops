@@ -11,3 +11,5 @@ jobs:
     with:
       sourceEnvironment: staging
       targetEnvironment: production
+    secrets:
+      GITOPS_PAT: ${{ secrets.GITOPS_PAT }}

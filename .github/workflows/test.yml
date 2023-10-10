@@ -11,3 +11,5 @@ jobs:
     with:
       sourceEnvironment: dev
       targetEnvironment: test
+    secrets:
+      GITOPS_PAT: ${{ secrets.GITOPS_PAT }}
