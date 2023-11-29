@@ -7,4 +7,4 @@ patchesStrategicMerge:
 namePrefix: staging-
 images:
 - name: quay.io/fmwalker/kafd-backend
-  newTag: tobereplaced
+  newTag: dbacd6d
