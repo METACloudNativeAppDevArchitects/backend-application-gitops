@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: quay.io/fmwalker/kafd-backend
-  newTag: dbacd6d
+  newTag: fe4600a
