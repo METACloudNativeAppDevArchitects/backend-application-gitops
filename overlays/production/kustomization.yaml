@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - ../../base
 images:
-- name: quay.io/fmwalker/kafd-backend
-  newTag: fe4600a
+- name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
+  newTag: ef2746b
