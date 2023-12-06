@@ -7,4 +7,4 @@ patchesStrategicMerge:
 namePrefix: dev-
 images:
   - name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
-    newTag: replace
+    newTag: "5133865"
