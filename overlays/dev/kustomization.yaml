@@ -6,5 +6,5 @@ patchesStrategicMerge:
   - route-backend.yaml
 namePrefix: dev-
 images:
-  - name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
-    newTag: 5133865
+- name: quay.io/fmwalker/kafd-backend
+  newTag: latest

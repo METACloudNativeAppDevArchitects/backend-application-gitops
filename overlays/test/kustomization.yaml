@@ -7,6 +7,4 @@ patchesStrategicMerge:
 namePrefix: test-
 images:
 - name: quay.io/fmwalker/kafd-backend
-  newTag: "5133865"
-- name: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application
-  newTag: ef2746b
+  newTag: dbacd6d
