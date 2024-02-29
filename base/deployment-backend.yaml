@@ -25,7 +25,7 @@ spec:
         deployment: backend
     spec:
       containers:
-      - image: registry-quay-quay-enterprise.apps.mgt.scp.gcp1.kafd.sa/pipelines/backend-application:latest
+      - image: backend-application:latest
         imagePullPolicy: Always
         name: backend
         resources: {}
